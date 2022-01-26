@@ -13,8 +13,10 @@ typedef struct _gList_t {
 
 gList_t GameList[] = {
 	{ 0x10179A00, "Kawashima: Motto Nou wo Kitaeru Otona no DS Training [JPN]", brainage_zip, &brainage_zip_size },
-	{ 0x10179B00, "Brain Age: Train Your Brain in Minutes a Day! [USA]", brainage_zip, &brainage_zip_size },
+	{ 0x10179B00, "Brain Age Trilogy: Train Your Brain three times in minutes a Day! [USA]", brainage_zip, &brainage_zip_size },
 	{ 0x10179C00, "Dr. Kawashima's Brain Training [PAL]", brainage_zip, &brainage_zip_size },
+	{ 0x10179D00, "Treinamento cerebral do Dr. Kawashima [POR]", brainage_zip, &brainage_zip_size },
+	{ 0x10179D00, "Kawashima bagsaui dunoe hunlyeon [RUS]", brainage_zip, &brainage_zip_size },
 
 	{ 0x10179D00, "Catch! Touch! Yoshi! [JPN]", yoshitouchandgo_zip, &yoshitouchandgo_zip_size },
 	{ 0x10179E00, "Yoshi Touch & Go [USA]", yoshitouchandgo_zip, &yoshitouchandgo_zip_size },
@@ -31,6 +33,7 @@ gList_t GameList[] = {
 	{ 0x10198800, "Yoshi's Island DS [JPN]", yoshids_zip, &yoshids_zip_size },
 	{ 0x10198900, "Yoshi's Island DS [USA]", yoshids_zip, &yoshids_zip_size },
 	{ 0x10198A00, "Yoshi's Island DS [PAL]", yoshids_zip, &yoshids_zip_size },
+	{ 0x10198B00, "syupeo malio beuladeoseu 6/syupeo malio woldeu 3/yosi aillaendeu DS [KOR]", yoshids_zip, &yoshids_zip_size },
 
 	{ 0x10198B00, "Yawaraka Atama Juku [JPN]", bigbrainacademy_zip, &bigbrainacademy_zip_size },
 	{ 0x10198C00, "Big Brain Academy [USA]", bigbrainacademy_zip, &bigbrainacademy_zip_size },
